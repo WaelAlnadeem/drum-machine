@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #b59c76;
+    font-family: "Audiowide", monospace;
+}
+
+#display {
+    width: 120px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 5px;
+    font-size: 20px;
+    background: #ffeb3b;
+    border: 2px solid #333;
+    border-radius: 7px;
+    color: #111;
+}
+
+#drum-pads {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    background: #391306;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px 3px #333;
+}
+
+.drum-pad {
+    width: 120px;
+    height: 120px;
+    background: #ff9800;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+#Drumpad {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.volumePower {
+
+    height: 100%;
+    width: 40%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+    width: 40px;
+    height: 25px;
+    margin: 10px 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    margin: 15px;
+}
