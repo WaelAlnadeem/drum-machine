@@ -21,9 +21,6 @@ class DrumPad extends Component {
 
     handleKeyDown = e => {
         if (e.keyCode === this.props.letter.charCodeAt()) {
-            this.audio.play()
-            this.audio.currentTime = 0
-            this.props.handleDisplay(this.props.id)
             this.handleClick()
         }
     }
